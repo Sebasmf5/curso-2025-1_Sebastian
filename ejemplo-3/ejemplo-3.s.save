@@ -1,0 +1,11 @@
+
+.data
+
+variable: .asciz "%d %d \r\n"
+
+.text
+.global _start
+.glabal main
+
+main:
+_start:
