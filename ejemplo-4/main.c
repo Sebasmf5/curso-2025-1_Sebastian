@@ -5,6 +5,7 @@
 
 //rax       rdi , rdi
   int sumar(int , int);
+  int restar(int, int);
 
 int main(int numeroParametro, char **argumentos){
 
@@ -16,5 +17,10 @@ int main(int numeroParametro, char **argumentos){
    resultado = sumar(numero1, numero2);
    printf("La suma de %d y %d es %d \r\n", numero1, numero2, resultado);
 
+   printf("----------Restar----------\r\n");
+   numero1=10;
+   numero2=4;
+   resultado = restar(numero1, numero2);
+   printf("La resta de %d y %d es %d \r\n", numero1, numero2, resultado);
    return(EXIT_SUCCESS);
 }
